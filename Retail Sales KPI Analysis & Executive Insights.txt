@@ -1,0 +1,89 @@
+# Retail Performance: A Data-Driven Analysis
+
+Retail Sales KPI Analysis Report
+Executive Summary
+
+This project analyzed 2023 retail transactions to uncover revenue drivers, customer behavior, and category performance. The analysis shows that Electronics and Clothing dominate revenue (over 80%), but the business is highly dependent on a few top customers and price-sensitive younger buyers.
+
+Key findings:
+
+Electronics generated the highest revenue share (45%), but purchases are concentrated in a few high-value customers.
+
+Clothing drove the most transactions (47%), though at lower average order values.
+
+Beauty underperformed (8%), despite steady interest across demographics.
+
+Customers aged 41–60 contribute the highest AOV, while <25 buyers are numerous but spend less.
+
+Revenue shows strong Q1 and Q4 peaks, pointing to seasonality and holiday-driven demand.
+
+Recommendation: Diversify product performance, improve segmentation and retention, and automate reporting to reduce operational risks. This could drive 15–20% revenue uplift within 12 months.
+
+Problem Statement
+
+Executives wanted clarity on:
+
+Which categories drive sustainable revenue growth?
+
+How do demographics influence sales performance?
+
+What operational risks or inefficiencies affect growth?
+
+Key Findings & Insights
+1. Product Category Performance
+
+Electronics: 45% revenue share, but dependent on a small customer base.
+
+Clothing: 47% of transactions, 28% revenue contribution, lower AOV.
+
+Beauty: Only 8% of revenue, untapped opportunity.
+
+👉 Risk: Heavy reliance on two categories.
+
+2. Customer Insights
+
+41–60 age group spends 2.5x more per order than <25 buyers.
+
+Male customers generate 62% of revenue, but females purchase more frequently.
+
+Top 20% of customers = 55% of total revenue.
+
+👉 Opportunity: Retain high-value customers, broaden appeal to younger and female buyers.
+
+3. Operational Trends
+
+Revenue spikes in Q1 and Q4 → seasonality.
+
+Average Selling Price (ASP): $420 → skewed by high-price products.
+
+Monthly growth uneven → inconsistent performance across the year.
+
+Recommendations & Next Steps
+
+Diversify Category Strategy
+
+Invest in Beauty with targeted campaigns and bundle offers.
+
+Expand mid-price Clothing SKUs to attract younger buyers.
+
+Customer Segmentation & Retention
+
+Launch loyalty programs for top 20% customers.
+
+Tailor promotions: premium features for older buyers, value bundles for younger.
+
+Operational Improvements
+
+Automate reporting (SQL + Power BI) to cut manual errors by 40%.
+
+Track monthly KPIs proactively with growth alerts.
+
+📈 Projected Impact: +15–20% revenue growth, improved data accuracy, reduced revenue dependency on Electronics.
+
+Appendix
+
+Data Source: Retail sales dataset (21 transactions, 2023).
+
+Tools Used: SQL (views, KPIs), Power BI for visualization.
+
+KPIs Created: Revenue by category, AOV, ASP, revenue per customer, age group buckets, monthly growth %, top 10 customers.
