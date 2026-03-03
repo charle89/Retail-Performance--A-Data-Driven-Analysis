@@ -1,89 +1,179 @@
-# Retail Performance: A Data-Driven Analysis
+Retail Performance Analytics: A Data-Driven Revenue Assessment
 
-Retail Sales KPI Analysis Report
+SQL | Power BI | KPI Modeling | Customer Segmentation
+
 Executive Summary
 
-This project analyzed 2023 retail transactions to uncover revenue drivers, customer behavior, and category performance. The analysis shows that Electronics and Clothing dominate revenue (over 80%), but the business is highly dependent on a few top customers and price-sensitive younger buyers.
+This project evaluates 2023 retail transaction data to identify revenue drivers, customer purchasing behavior, category performance, and operational risks.
 
-Key findings:
+The analysis reveals that while Electronics and Clothing generate over 80% of total revenue, the business faces concentration risk due to dependency on high-value customers and seasonal revenue spikes.
 
-Electronics generated the highest revenue share (45%), but purchases are concentrated in a few high-value customers.
+Key strategic insight: Revenue growth is achievable through category diversification, customer segmentation, and automated KPI monitoring.
 
-Clothing drove the most transactions (47%), though at lower average order values.
+Projected Impact: 15–20% revenue uplift within 12 months through targeted optimization.
 
-Beauty underperformed (8%), despite steady interest across demographics.
+Business Problem
 
-Customers aged 41–60 contribute the highest AOV, while <25 buyers are numerous but spend less.
+Executive leadership required clarity on:
 
-Revenue shows strong Q1 and Q4 peaks, pointing to seasonality and holiday-driven demand.
+Which product categories drive sustainable growth?
 
-Recommendation: Diversify product performance, improve segmentation and retention, and automate reporting to reduce operational risks. This could drive 15–20% revenue uplift within 12 months.
+How demographic segments influence revenue performance?
 
-Problem Statement
+What operational dependencies create revenue risk?
 
-Executives wanted clarity on:
+Where to prioritize investment for maximum ROI?
 
-Which categories drive sustainable revenue growth?
+Analytical Approach
 
-How do demographics influence sales performance?
+Built KPI views using SQL
 
-What operational risks or inefficiencies affect growth?
+Performed revenue segmentation by category and demographic
 
-Key Findings & Insights
-1. Product Category Performance
+Calculated AOV, ASP, revenue concentration ratios
 
-Electronics: 45% revenue share, but dependent on a small customer base.
+Analyzed seasonal and monthly revenue patterns
 
-Clothing: 47% of transactions, 28% revenue contribution, lower AOV.
+Identified customer concentration risk (Pareto analysis)
 
-Beauty: Only 8% of revenue, untapped opportunity.
+Visualized findings in Power BI dashboards
 
-👉 Risk: Heavy reliance on two categories.
+Key Findings & Strategic Insights
+1️⃣ Category Performance Analysis
 
-2. Customer Insights
+Electronics accounts for 45% of total revenue
 
-41–60 age group spends 2.5x more per order than <25 buyers.
+Clothing represents 47% of transactions but only 28% of revenue
 
-Male customers generate 62% of revenue, but females purchase more frequently.
+Beauty contributes just 8% of revenue
 
-Top 20% of customers = 55% of total revenue.
+Insight:
 
-👉 Opportunity: Retain high-value customers, broaden appeal to younger and female buyers.
+Electronics drives revenue but is concentrated among a limited customer segment, increasing financial exposure.
 
-3. Operational Trends
+Risk:
 
-Revenue spikes in Q1 and Q4 → seasonality.
+Revenue dependency on two dominant categories reduces portfolio resilience.
 
-Average Selling Price (ASP): $420 → skewed by high-price products.
+Strategic Direction:
 
-Monthly growth uneven → inconsistent performance across the year.
+Expand Beauty and mid-priced Clothing to reduce dependency risk.
 
-Recommendations & Next Steps
+2️⃣ Customer Behavior & Revenue Segmentation
 
-Diversify Category Strategy
+Customers aged 41–60 generate 2.5x higher AOV than customers under 25
 
-Invest in Beauty with targeted campaigns and bundle offers.
+Male customers contribute 62% of total revenue
 
-Expand mid-price Clothing SKUs to attract younger buyers.
+Top 20% of customers generate 55% of total revenue
 
-Customer Segmentation & Retention
+Insight:
 
-Launch loyalty programs for top 20% customers.
+Revenue concentration risk exists due to heavy reliance on high-value customers.
 
-Tailor promotions: premium features for older buyers, value bundles for younger.
+Opportunity:
 
-Operational Improvements
+Retain top 20% through loyalty and premium engagement programs
 
-Automate reporting (SQL + Power BI) to cut manual errors by 40%.
+Increase monetization of younger buyers via bundling and pricing strategy
 
-Track monthly KPIs proactively with growth alerts.
+Expand product targeting for female customer segments
 
-📈 Projected Impact: +15–20% revenue growth, improved data accuracy, reduced revenue dependency on Electronics.
+3️⃣ Revenue & Operational Trends
 
-Appendix
+Strong revenue peaks observed in Q1 and Q4
 
-Data Source: Retail sales dataset (21 transactions, 2023).
+Monthly growth patterns are inconsistent
 
-Tools Used: SQL (views, KPIs), Power BI for visualization.
+ASP ($420) skewed by high-ticket items
 
-KPIs Created: Revenue by category, AOV, ASP, revenue per customer, age group buckets, monthly growth %, top 10 customers.
+Insight:
+
+Revenue performance is influenced heavily by seasonality and premium product sales.
+
+Risk:
+
+High ASP dependence exposes revenue volatility during off-peak seasons.
+
+Opportunity:
+
+Introduce mid-tier pricing strategies to stabilize revenue across quarters.
+
+Strategic Recommendations
+1️⃣ Diversify Revenue Streams
+
+Invest in Beauty category marketing
+
+Introduce bundles and cross-category promotions
+
+Expand mid-price inventory to smooth ASP volatility
+
+2️⃣ Customer Segmentation & Retention
+
+Implement loyalty program for high-value customers
+
+Tailor promotions by age group
+
+Develop targeted retention campaigns for top 20%
+
+3️⃣ Operational Optimization
+
+Automate reporting using SQL views + Power BI dashboards
+
+Implement monthly KPI alerts
+
+Standardize performance tracking across categories
+
+Projected Business Impact
+
+15–20% potential revenue growth
+
+Reduced dependency on Electronics
+
+Improved customer lifetime value
+
+Stabilized seasonal volatility
+
+40% reduction in manual reporting effort
+
+Technical Deliverables
+
+SQL Views Created:
+
+Revenue by Category
+
+Average Order Value (AOV)
+
+Average Selling Price (ASP)
+
+Revenue per Customer
+
+Age Group Buckets
+
+Monthly Growth %
+
+Top 10 Customer Contribution
+
+Visualization:
+
+Power BI executive dashboard
+
+Category share analysis
+
+Customer segmentation breakdown
+
+Seasonal revenue trend charts
+
+Tools Used
+
+SQL (views, aggregation, segmentation)
+
+Power BI (visual dashboards & trend analysis)
+
+Excel (data cleaning)
+
+Conclusion
+
+This project demonstrates how structured KPI modeling and customer segmentation can expose revenue concentration risks, uncover growth opportunities, and guide strategic retail decision-making.
+
+By combining SQL-driven analytics with executive-level visualization, the analysis provides a scalable framework for sustainable retail growth.
